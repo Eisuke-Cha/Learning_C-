@@ -1,5 +1,5 @@
 #include <iostream>
-// プロトタイプ宣言
+// プロトタイプ宣言　←　コードが見やすくなる
 
 using namespace std;
 

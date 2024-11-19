@@ -1,3 +1,5 @@
+// メソッド
+
 #include <iostream>
 #include <string>
 
@@ -17,7 +19,7 @@ class Person{
 
 // 関数(メソッド)の定義⇒ 帰り値 クラス名::関数名(引数)
 void Person::say_hello(string message){
-    cout << "Hello." << message << endl;
+    cout << "Hello, " << message << endl;
 }
 
 int Person::sqrt(int x){
@@ -31,3 +33,4 @@ int main()
     person1.say_hello("Masashi");
     cout << person1.sqrt(5) << endl;
 }
+

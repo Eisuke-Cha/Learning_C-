@@ -1,3 +1,5 @@
+// bool型・if文
+
 #include <iostream>
 
 int main()

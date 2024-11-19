@@ -1,3 +1,5 @@
+// オーバーライド・仮想関数
+
 #include <iostream>
 #include <string>
 using namespace std;

@@ -1,3 +1,5 @@
+// 名前空間・入力
+
 #include <iostream>
 #include <string>
 

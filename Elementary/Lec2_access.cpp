@@ -1,3 +1,5 @@
+// 構造体・クラス
+
 #include <iostream>
 using namespace std;
 
@@ -9,8 +11,8 @@ private: // アクセス指定子(クラス外からのアクセス) public:〇 
     // この2つはクラス外からアクセスすることはできない
 
 public: // メソッド⇒別名メンバ関数(基本public)
-    int get_HP() { return HP; }         // privateのHPを取得する
-    void set_HP(int hp) { HP = hp; }    // privateのHPにhpを代入する
+    int get_HP() { return HP; }         // privateのHPを取得する(ゲッター)
+    void set_HP(int hp) { HP = hp; }    // privateのHPにhpを代入する(セッター)
 
     int get_MP() { return MP; }         // privateのMPを取得する 
     void set_MP(int mp) { MP = mp; }    // privateのMPにmpを代入する

@@ -1,3 +1,5 @@
+// for文・配列
+
 #include <iostream>
 #include <string>
 

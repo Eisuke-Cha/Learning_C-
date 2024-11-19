@@ -1,4 +1,5 @@
 // 継承
+
 #include <iostream>
 #include <string>
 
